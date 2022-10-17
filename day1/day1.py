@@ -21,5 +21,12 @@ for i in numbersArray:
             result = i * j
 
 
+# Part - 2
+for i in numbersArray:
+    for j in numbersArray:
+        for k in numbersArray:
+            if i + j + k == 2020:
+                partTwo = i * j * k
 print(result)
+print(partTwo)
 
